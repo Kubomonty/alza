@@ -2,10 +2,10 @@
 
 import { useMemo, useRef, useState } from 'react';
 
-import { Product } from '../../../domain';
-import { useCarouselMetrics } from '../hooks/useCarouselMetrics';
-import { usePointerDragCarousel } from '../hooks/usePointerDragCarousel';
+import { Product } from '../../../products/domain/models';
 import { HeroCarouselProductCard } from './HeroCarouselProductCard';
+import { useCarouselMetrics } from './hooks/useCarouselMetrics';
+import { usePointerDragCarousel } from './hooks/usePointerDragCarousel';
 
 type HeroCarouselProps = { products: Product[] };
 
